@@ -1,0 +1,36 @@
+::backdrop {
+  background-image: linear-gradient(
+    45deg,
+    magenta,
+    rebeccapurple,
+    dodgerblue,
+    green
+  );
+  opacity: 0.75;
+}
+
+:modal {
+  background-color: rgb(19, 178, 61);
+  border: 2px solid rgb(28, 134, 72);
+  border-radius: 5px;
+}
+
+
+dialog {
+  position: relative;
+  padding: 0;
+  width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
+}
+
+dialog button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+dialog img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
